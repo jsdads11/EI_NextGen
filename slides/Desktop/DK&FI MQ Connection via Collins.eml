@@ -1,0 +1,824 @@
+From: Graham Cottrell <Graham.Cottrell@easyJet.com>
+To: "'simon.adams@collins.com'" <simon.adams@collins.com>, Jon Floyd
+	<jon.floyd@collins.com>, Ricky Woolway <ricky.woolway@rockwellcollins.com>,
+	Tracie Baldock <Tracie.Baldock@easyJet.com>, Ravinder Singh
+	<Ravinder.Singh@easyJet.com>, Nandini D <nandini.d@easyJet.com>
+CC: Leanna Liverpool <Leanna.Liverpool@easyJet.com>, Darryl Short
+	<Darryl.Short@easyJet.com>
+Subject: DK&FI MQ Connection via Collins
+Thread-Topic: DK&FI MQ Connection via Collins
+Thread-Index: AdcFNNx1gtC5tYRBQJq5f7xTMPHIXw==
+Importance: high
+X-Priority: 1
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Wed, 17 Feb 2021 14:02:51 +0000
+Message-ID:
+	<AM6PR0302MB3304AA2F1BA545759FA3B53AE5869@AM6PR0302MB3304.eurprd03.prod.outlook.com>
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: multipart/alternative;
+	boundary="_000_AM6PR0302MB3304AA2F1BA545759FA3B53AE5869AM6PR0302MB3304_"
+MIME-Version: 1.0
+
+--_000_AM6PR0302MB3304AA2F1BA545759FA3B53AE5869AM6PR0302MB3304_
+Content-Type: text/plain; charset="us-ascii"
+
+Thanks for your time today. Details of plan/approach below.
+
+
+
+Brief
+
+*       Establish MQ connection (VPN) between easyJet and Collins, for both Denmark and Finland PNR
+*       Target mid to late March to be live in Production
+
+
+
+Approach
+
+*       Exchange technical details (IPs, ports, queues etc)
+*       Raise respective internal requests for networks/firewall configuration
+*       Reconvene to test connection
+
+   *    Escalate any issues on connection, and reconvene over conference call to prevent delays
+
+*       Accredit message format/content with Denmark/Finland before moving to Production
+
+
+
+Key Milestones
+
+Milestone
+
+Date
+
+Status
+
+Kick-off
+
+Kick-off session for MQ connection setup
+
+
+
+17th Feb
+
+Complete
+
+Network Configuration
+
+Confirm network configuration completed on both sides
+
+
+
+w/c 1st March
+
+In Progress
+
+Testing
+
+Test sign-off for connection in test
+
+
+
+w/c 1st March
+
+To be started
+
+Accreditation
+
+Accreditation sign-off from Denmark/Finland
+
+
+
+w/c 8th March
+
+To be started/planned
+
+Go-Live
+
+Production go-live
+
+
+
+w/c 15th March
+
+To be started
+
+
+
+Actions
+
+Action
+
+Who
+
+Target Completion
+
+Status
+
+Connection Details
+
+Collins to send worksheet with IPs/Ports/Queue name/Channel name, distinguishing QA/Prod connections and queues for Denmark/Finland
+
+
+
+Collins
+
+18th Feb COB
+
+In Progress
+
+Arrange Test
+
+Graham to arrange session in 1st week of March to test connection (preferably afternoon session)
+
+
+
+easyJet (Graham)
+
+18th Feb COB
+
+In Progress
+
+Inform Denmark
+
+Graham to respond to Denmark with details of approach to MQ connection setup, and Ricky to do the same from Collins side
+
+easyJet/Collins
+
+18th Feb COB
+
+In Progress
+
+PO Details
+
+easyJet to confirm PO details ASAP
+
+easyJet (Tracie)
+
+23rd Feb COB
+
+In Progress
+
+Review and Return Worksheet
+
+easyJet to review and return worksheet, adding in details of IP addresses for Client MQ
+
+easyJet (EI)
+
+19th Feb COB
+
+To be started
+
+Confirm Client connection
+
+Confirm if easyJet will maintain permanent connection to Collins Server (always up)
+
+
+
+easyJet (EI)
+
+19th Feb COB
+
+To be started
+
+easyJet Firewalls
+
+Raise request with networks and infosec to approve and implement connection from easyJet side
+
+easyJet (EI)
+
+23rd Feb COB
+
+To be started
+
+Collins Firewalls
+
+Raise request for engineer(s) to implement connection from their side, and provide VPN password
+
+Collins
+
+26th Feb COB
+
+To be started
+
+
+
+Notes
+
+*       Connection is VPN, will not require certificates/SSL/Cipher exchange
+*       easyJet is the Client, and Collins the Server. easyJet expect to connect to queue on Collins side
+*       easyJet expect elapsed duration of 2 weeks to setup connection ready for test. Collins only require a few days from receipt of IP details
+
+
+
+Regards,
+
+
+
+Graham Cottrell
+
+Airport Technology Manager
+
+Mob: +44 7954373376
+
+
+
+
+--_000_AM6PR0302MB3304AA2F1BA545759FA3B53AE5869AM6PR0302MB3304_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:799961471;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1365343246 134807553 134807555 134807557 134807553 134807555 134807557 134807553 134807555 134807557;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:1012680433;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1883913004 134807553 -1919540364 134807557 134807553 134807555 134807557 134807553 134807555 134807557;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:Calibri;}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l2
+	{mso-list-id:1432773075;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1157284054 134807553 134807555 134807557 134807553 134807555 134807557 134807553 134807555 134807557;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l2:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l2:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l3
+	{mso-list-id:1795102765;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-167771120 134807553 134807555 134807557 134807553 134807555 134807557 134807553 134807555 134807557;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l3:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l3:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l3:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l3:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l3:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l3:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l3:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-GB" link="#0563C1" vlink="#954F72">
+<div class="WordSection1">
+<p class="MsoNormal" style="margin-bottom:6.0pt">Thanks for your time today. Details of plan/approach below.<o:p></o:p></p>
+<p class="MsoNormal" style="margin-bottom:6.0pt"><b><o:p>&nbsp;</o:p></b></p>
+<p class="MsoNormal" style="margin-bottom:6.0pt"><b>Brief</b><o:p></o:p></p>
+<ul style="margin-top:0cm" type="disc">
+<li class="MsoListParagraph" style="margin-left:0cm;mso-list:l3 level1 lfo1">Establish MQ connection (VPN) between easyJet and Collins, for both Denmark and Finland PNR<o:p></o:p></li><li class="MsoListParagraph" style="margin-left:0cm;mso-list:l3 level1 lfo1">Target mid to late March to be live in Production<o:p></o:p></li></ul>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal" style="margin-bottom:6.0pt"><b>Approach<o:p></o:p></b></p>
+<ul style="margin-top:0cm" type="disc">
+<li class="MsoListParagraph" style="margin-left:0cm;mso-list:l1 level1 lfo2">Exchange technical details (IPs, ports, queues etc)<o:p></o:p></li><li class="MsoListParagraph" style="margin-left:0cm;mso-list:l1 level1 lfo2">Raise respective internal requests for networks/firewall configuration<o:p></o:p></li><li class="MsoListParagraph" style="margin-left:0cm;mso-list:l1 level1 lfo2">Reconvene to test connection<o:p></o:p></li><ul style="margin-top:0cm" type="disc">
+<li class="MsoListParagraph" style="margin-left:0cm;mso-list:l1 level2 lfo2">Escalate any issues on connection, and reconvene over conference call to prevent delays<o:p></o:p></li></ul>
+<li class="MsoListParagraph" style="margin-left:0cm;mso-list:l1 level1 lfo2">Accredit message format/content with Denmark/Finland before moving to Production<o:p></o:p></li></ul>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal" style="margin-bottom:6.0pt"><b>Key Milestones<o:p></o:p></b></p>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none">
+<tbody>
+<tr>
+<td width="311" valign="top" style="width:233.5pt;border:solid windowtext 1.0pt;background:#D9D9D9;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b>Milestone<o:p></o:p></b></p>
+</td>
+<td width="161" valign="top" style="width:120.5pt;border:solid windowtext 1.0pt;border-left:none;background:#D9D9D9;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b><span style="color:black">Date</span><o:p></o:p></b></p>
+</td>
+<td width="312" valign="top" style="width:233.9pt;border:solid windowtext 1.0pt;border-left:none;background:#D9D9D9;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b><span style="color:black">Status</span><o:p></o:p></b></p>
+</td>
+</tr>
+<tr>
+<td width="311" valign="top" style="width:233.5pt;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b>Kick-off<o:p></o:p></b></p>
+<p class="MsoNormal">Kick-off session for MQ connection setup<o:p></o:p></p>
+<p class="MsoNormal"><b><o:p>&nbsp;</o:p></b></p>
+</td>
+<td width="161" valign="top" style="width:120.5pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal">17<sup>th</sup> Feb<o:p></o:p></p>
+</td>
+<td width="312" valign="top" style="width:233.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal">Complete<o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width="311" valign="top" style="width:233.5pt;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b>Network Configuration<o:p></o:p></b></p>
+<p class="MsoNormal">Confirm network configuration completed on both sides<o:p></o:p></p>
+<p class="MsoNormal"><b><o:p>&nbsp;</o:p></b></p>
+</td>
+<td width="161" valign="top" style="width:120.5pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal">w/c 1<sup>st</sup> March<o:p></o:p></p>
+</td>
+<td width="312" valign="top" style="width:233.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal">In Progress<o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width="311" valign="top" style="width:233.5pt;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b>Testing<o:p></o:p></b></p>
+<p class="MsoNormal">Test sign-off for connection in test<o:p></o:p></p>
+<p class="MsoNormal"><b><o:p>&nbsp;</o:p></b></p>
+</td>
+<td width="161" valign="top" style="width:120.5pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal">w/c 1<sup>st</sup> March<o:p></o:p></p>
+</td>
+<td width="312" valign="top" style="width:233.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal">To be started<o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width="311" valign="top" style="width:233.5pt;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b>Accreditation<o:p></o:p></b></p>
+<p class="MsoNormal">Accreditation sign-off from Denmark/Finland<o:p></o:p></p>
+<p class="MsoNormal"><b><o:p>&nbsp;</o:p></b></p>
+</td>
+<td width="161" valign="top" style="width:120.5pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal">w/c 8<sup>th</sup> March<o:p></o:p></p>
+</td>
+<td width="312" valign="top" style="width:233.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal">To be started/planned<b><o:p></o:p></b></p>
+</td>
+</tr>
+<tr style="height:3.25pt">
+<td width="311" valign="top" style="width:233.5pt;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:3.25pt">
+<p class="MsoNormal"><b>Go-Live<o:p></o:p></b></p>
+<p class="MsoNormal">Production go-live<o:p></o:p></p>
+<p class="MsoNormal"><b><o:p>&nbsp;</o:p></b></p>
+</td>
+<td width="161" valign="top" style="width:120.5pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:3.25pt">
+<p class="MsoNormal">w/c 15<sup>th</sup> March<o:p></o:p></p>
+</td>
+<td width="312" valign="top" style="width:233.9pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:3.25pt">
+<p class="MsoNormal">To be started<b><o:p></o:p></b></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal" style="margin-bottom:6.0pt"><b>Actions<o:p></o:p></b></p>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none">
+<tbody>
+<tr>
+<td width="311" valign="top" style="width:233.5pt;border:solid windowtext 1.0pt;background:#D9D9D9;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b>Action<o:p></o:p></b></p>
+</td>
+<td width="161" valign="top" style="width:120.5pt;border:solid windowtext 1.0pt;border-left:none;background:#D9D9D9;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b><span style="color:black">Who</span><o:p></o:p></b></p>
+</td>
+<td width="132" valign="top" style="width:99.2pt;border:solid windowtext 1.0pt;border-left:none;background:#D9D9D9;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b><span style="color:black">Target Completion</span><o:p></o:p></b></p>
+</td>
+<td width="180" valign="top" style="width:134.7pt;border:solid windowtext 1.0pt;border-left:none;background:#D9D9D9;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b><span style="color:black">Status</span><o:p></o:p></b></p>
+</td>
+</tr>
+<tr style="height:64.55pt">
+<td width="311" valign="top" style="width:233.5pt;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:64.55pt">
+<p class="MsoNormal"><b>Connection Details<o:p></o:p></b></p>
+<p class="MsoNormal">Collins to send worksheet with IPs/Ports/Queue name/Channel name, distinguishing QA/Prod connections and queues for Denmark/Finland<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+</td>
+<td width="161" valign="top" style="width:120.5pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:64.55pt">
+<p class="MsoNormal">Collins<o:p></o:p></p>
+</td>
+<td width="132" valign="top" style="width:99.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:64.55pt">
+<p class="MsoNormal">18<sup>th</sup> Feb COB<o:p></o:p></p>
+</td>
+<td width="180" valign="top" style="width:134.7pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:64.55pt">
+<p class="MsoNormal">In Progress<o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width="311" valign="top" style="width:233.5pt;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b>Arrange Test<o:p></o:p></b></p>
+<p class="MsoNormal">Graham to arrange session in 1st week of March to test connection (preferably afternoon session)<o:p></o:p></p>
+<p class="MsoNormal"><b><o:p>&nbsp;</o:p></b></p>
+</td>
+<td width="161" valign="top" style="width:120.5pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal">easyJet (Graham)<o:p></o:p></p>
+</td>
+<td width="132" valign="top" style="width:99.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal">18<sup>th</sup> Feb COB<o:p></o:p></p>
+</td>
+<td width="180" valign="top" style="width:134.7pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal">In Progress<o:p></o:p></p>
+</td>
+</tr>
+<tr style="height:62.9pt">
+<td width="311" valign="top" style="width:233.5pt;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:62.9pt">
+<p class="MsoNormal"><b>Inform Denmark<o:p></o:p></b></p>
+<p class="MsoNormal">Graham to respond to Denmark with details of approach to MQ connection setup, and Ricky to do the same from Collins side<o:p></o:p></p>
+</td>
+<td width="161" valign="top" style="width:120.5pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:62.9pt">
+<p class="MsoNormal">easyJet/Collins<o:p></o:p></p>
+</td>
+<td width="132" valign="top" style="width:99.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:62.9pt">
+<p class="MsoNormal">18<sup>th</sup> Feb COB<o:p></o:p></p>
+</td>
+<td width="180" valign="top" style="width:134.7pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:62.9pt">
+<p class="MsoNormal">In Progress<o:p></o:p></p>
+</td>
+</tr>
+<tr style="height:33.95pt">
+<td width="311" valign="top" style="width:233.5pt;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:33.95pt">
+<p class="MsoNormal"><b>PO Details<o:p></o:p></b></p>
+<p class="MsoNormal">easyJet to confirm PO details ASAP<o:p></o:p></p>
+</td>
+<td width="161" valign="top" style="width:120.5pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:33.95pt">
+<p class="MsoNormal">easyJet (Tracie)<o:p></o:p></p>
+</td>
+<td width="132" valign="top" style="width:99.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:33.95pt">
+<p class="MsoNormal">23<sup>rd</sup> Feb COB<o:p></o:p></p>
+</td>
+<td width="180" valign="top" style="width:134.7pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:33.95pt">
+<p class="MsoNormal">In Progress<o:p></o:p></p>
+</td>
+</tr>
+<tr style="height:49.3pt">
+<td width="311" valign="top" style="width:233.5pt;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:49.3pt">
+<p class="MsoNormal"><b>Review and Return Worksheet<o:p></o:p></b></p>
+<p class="MsoNormal">easyJet to review and return worksheet, adding in details of IP addresses for Client MQ<o:p></o:p></p>
+</td>
+<td width="161" valign="top" style="width:120.5pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:49.3pt">
+<p class="MsoNormal">easyJet (EI)<o:p></o:p></p>
+</td>
+<td width="132" valign="top" style="width:99.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:49.3pt">
+<p class="MsoNormal">19<sup>th</sup> Feb COB<o:p></o:p></p>
+</td>
+<td width="180" valign="top" style="width:134.7pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:49.3pt">
+<p class="MsoNormal">To be started<o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width="311" valign="top" style="width:233.5pt;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b>Confirm Client connection<o:p></o:p></b></p>
+<p class="MsoNormal">Confirm if easyJet will maintain permanent connection to Collins Server (always up)<o:p></o:p></p>
+<p class="MsoNormal"><b><o:p>&nbsp;</o:p></b></p>
+</td>
+<td width="161" valign="top" style="width:120.5pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal">easyJet (EI)<o:p></o:p></p>
+</td>
+<td width="132" valign="top" style="width:99.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal">19<sup>th</sup> Feb COB<o:p></o:p></p>
+</td>
+<td width="180" valign="top" style="width:134.7pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal">To be started<o:p></o:p></p>
+</td>
+</tr>
+<tr style="height:62.9pt">
+<td width="311" valign="top" style="width:233.5pt;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:62.9pt">
+<p class="MsoNormal"><b>easyJet Firewalls<o:p></o:p></b></p>
+<p class="MsoNormal">Raise request with networks and infosec to approve and implement connection from easyJet side<o:p></o:p></p>
+</td>
+<td width="161" valign="top" style="width:120.5pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:62.9pt">
+<p class="MsoNormal">easyJet (EI)<o:p></o:p></p>
+</td>
+<td width="132" valign="top" style="width:99.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:62.9pt">
+<p class="MsoNormal">23<sup>rd</sup> Feb COB<o:p></o:p></p>
+</td>
+<td width="180" valign="top" style="width:134.7pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:62.9pt">
+<p class="MsoNormal">To be started<o:p></o:p></p>
+</td>
+</tr>
+<tr style="height:62.35pt">
+<td width="311" valign="top" style="width:233.5pt;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:62.35pt">
+<p class="MsoNormal"><b>Collins Firewalls<o:p></o:p></b></p>
+<p class="MsoNormal">Raise request for engineer(s) to implement connection from their side, and provide VPN password<o:p></o:p></p>
+</td>
+<td width="161" valign="top" style="width:120.5pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:62.35pt">
+<p class="MsoNormal">Collins<o:p></o:p></p>
+</td>
+<td width="132" valign="top" style="width:99.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:62.35pt">
+<p class="MsoNormal">26<sup>th</sup> Feb COB<o:p></o:p></p>
+</td>
+<td width="180" valign="top" style="width:134.7pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:62.35pt">
+<p class="MsoNormal">To be started<o:p></o:p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal" style="margin-bottom:6.0pt"><b>Notes<o:p></o:p></b></p>
+<ul style="margin-top:0cm" type="disc">
+<li class="MsoListParagraph" style="margin-left:0cm;mso-list:l2 level1 lfo3">Connection is VPN, will not require certificates/SSL/Cipher exchange<o:p></o:p></li><li class="MsoListParagraph" style="margin-left:0cm;mso-list:l2 level1 lfo3">easyJet is the Client, and Collins the Server. easyJet expect to connect to queue on Collins side<o:p></o:p></li><li class="MsoListParagraph" style="margin-left:0cm;mso-list:l2 level1 lfo3">easyJet expect elapsed duration of 2 weeks to setup connection ready for test. Collins only require a few days from receipt of IP details<o:p></o:p></li></ul>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span lang="EN-US" style="mso-fareast-language:EN-GB">Regards,<o:p></o:p></span></p>
+<p class="MsoNormal"><span lang="EN-US" style="mso-fareast-language:EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><b><span style="font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:#FF6600;mso-fareast-language:EN-GB">Graham Cottrell<o:p></o:p></span></b></p>
+<p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;mso-fareast-language:EN-GB">Airport Technology Manager<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:#7F7F7F;mso-fareast-language:EN-GB">Mob: +44 7954373376</span><span style="color:#7F7F7F;mso-fareast-language:EN-GB"><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_AM6PR0302MB3304AA2F1BA545759FA3B53AE5869AM6PR0302MB3304_--

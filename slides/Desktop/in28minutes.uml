@@ -1,0 +1,82 @@
+@startuml
+
+title Classes - Restful Web Service Application UML Class diagram
+
+!define MONOSPACE #EBEFF4
+!define DARK #205081
+
+SkinParam Shadowing True
+
+SkinParam note {
+	HeaderBackgroundColor blue
+	ArrowColor DARK
+	BorderColor DARK
+	BackgroundColor MONOSPACE
+	FontSize 16
+	FontStyle Normal
+	FontColor DARK
+AttributeFontColor BLACK
+}
+
+
+
+package com.restfulwebservices.main {
+note left of RestfulWebServicesApplication: RestfulWebServicesApplication
+ class RestfulWebServicesApplication {
+ +main()
+ +RestfulWebServicesApplication() : run
+ }
+}
+
+package com.restfulwebservices.tonyrestfulwebservices.user {
+ note left of UserDaoService: UserDaoService handles \nDB access and persistence
+ class UserDaoService {
+  -users : static List
+  -usersCount : static int
+  +findAll()
+  +save(user)
+  +findOne(id)
+ }
+
+ note bottom of UserResource: UserResource handles REST calls \nto the UserDaoService
+ class UserResource {
+  -service : UserDaoService
+  +retrieveAllUsers()
+  +retrieveUser(id)
+ }
+
+ note top of User: Bean for User \ngetters and setters
+ class User {
+  -id : int
+  -name : String
+  -birthday : Date
+  +getId()
+  +getName()
+  +getbirthDay()
+  +setId()
+  +setName()
+  +setbirthDay()
+  +toString(id, name. birthday)
+ }
+}
+
+package com.restfulwebservices.tonyrestfulwebervices {
+
+ class ExceptionResponse {
+  -timestamp : Date
+  -message : String
+  -details : String
+ }
+ class CustomizedResponseEntityExceptionHandler {
+  +handleAllExceptions()
+  +handleUserNotFoundException()
+ }
+
+}
+
+
+RestfulWebServicesApplication -- UserDaoService : > calls
+UserResource -- UserDaoService
+UserDaoService -> UserResource: references
+
+@enduml
